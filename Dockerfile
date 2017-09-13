@@ -1,3 +1,3 @@
 FROM nginx
-RUN echo secondbuild > /usr/share/nginx/html/index.html
+RUN echo thirdbuild > /usr/share/nginx/html/index.html
 EXPOSE 80
